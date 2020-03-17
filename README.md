@@ -1,5 +1,3 @@
-react-redux-hooks-starter-kit with react-router, webpack and prettier
-
 # react-redux-router-hooks-starter-kit
 A starter kit with react 16 hooks, redux, react-router, webpack4 and prettier.
 
