@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start:dev": "set REACT_APP_ENV=dev&&react-scripts start",    
-    "start:qa": "set REACT_APP_ENV=qa&&react-scripts start", 
+    "build:dev": "set REACT_APP_ENV=dev&&react-scripts build",
     "build": "set REACT_APP_ENV=prod&&react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
