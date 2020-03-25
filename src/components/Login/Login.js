@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { InputGroup, Input, Button } from 'reactstrap';
 import { useHistory } from "react-router-dom";
 
@@ -9,7 +9,9 @@ import './Login.css';
 const Login = () => {
   const [loginInfo, setLoginInfo] = useState({ userName: '', password: '' });
   let history = useHistory();
-
+  useEffect(() => {
+    localStorage.setItem('authToken', JSON.stringify({ userName: 'gurpreet', password: 'test'}));
+  }, []);
   const handleInput = (value, field) => {
     setLoginInfo(loginInfo => ({ ...loginInfo, [field]: value }));
   }
@@ -31,6 +33,7 @@ const Login = () => {
       handleInfoToastr(infoMsg.registerUser);
     }
   }
+  
   return (<div className="login-box">
     <div className="row">
       <span>Login</span>

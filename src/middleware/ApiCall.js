@@ -13,6 +13,23 @@ function setHeaderOptions(config) {
 }
 
 const ApiCall = {
+  getCall: async (config) => {
+    let headers = setHeaderOptions(config);
+    try {
+      let response = await axios.get(config.url, {
+        headers: headers,
+      })
+      // console.info('response', response);
+      return response;
+    } catch (error) {
+      // console.info('error', error.response);
+      if (error && error.response && (error.response.status === 401 || error.response.status === 500)) {
+        return error;
+      } else {
+        return Promise.reject({ ...error });
+      }
+    }
+  },
   postCall: async (config) => {
     let headers = setHeaderOptions(config);
     try {

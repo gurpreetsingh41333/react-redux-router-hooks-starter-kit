@@ -1,5 +1,5 @@
 const dev = {
-  baseUrl: 'http://localhost:3000'
+  baseUrl: 'https://localhost:44308/api/'
 };
 
 const qa = {
@@ -16,7 +16,7 @@ const prod = {
 
 console.info("env:", process.env.REACT_APP_ENV);
 
-const config =
+export const API_URI =
   process.env.REACT_APP_ENV === "prod"
     ? prod
     : process.env.REACT_APP_ENV === "stage"
@@ -25,12 +25,7 @@ const config =
         ? qa
         : dev;
 
-export default {
-  ...config
-};
-
-
 // end points
-export const endPoints = {
-
+export const END_POINTS = {
+  GET_USER_LIST: 'user?PageNumber={PageNumber}&PageSize={PageSize}'
 };

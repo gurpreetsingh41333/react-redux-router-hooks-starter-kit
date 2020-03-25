@@ -1,0 +1,56 @@
+{
+  "paging": {
+    "pageIndex": 2,
+    "pageSize": 4,
+    "totalRecords": 21,
+    "pageCount": 6,
+    "prevPageURL": "https://localhost:44308/api/user?PageNumber=1&PageSize=4",
+    "nextPageURL": "https://localhost:44308/api/user?ageNumber=3&PageSize=4",
+    "hasPreviousPage": true,
+    "hasNextPage": true,
+    "nextPageNumber": 3,
+    "previousPageNumber": 1
+  },
+  "user": [
+    {
+      "id": 5,
+      "firstName": "Ashish",
+      "lastName": "Shukla",
+      "designationId": 5,
+      "designation": "Technical Consultant",
+      "departmentId": 3,
+      "departmentName": "IT Support",
+      "active": true
+    },
+    {
+      "id": 6,
+      "firstName": "Vinod",
+      "lastName": "Chaudhary",
+      "designationId": 6,
+      "designation": "Sr. Executive",
+      "departmentId": 4,
+      "departmentName": "IT Development",
+      "active": true
+    },
+    {
+      "id": 7,
+      "firstName": "Gopal",
+      "lastName": "Shukla",
+      "designationId": 1,
+      "designation": "Team Lead",
+      "departmentId": 4,
+      "departmentName": "IT Development",
+      "active": true
+    },
+    {
+      "id": 8,
+      "firstName": "Alankar",
+      "lastName": "Kumar",
+      "designationId": 2,
+      "designation": "Manager",
+      "departmentId": 4,
+      "departmentName": "IT Development",
+      "active": true
+    }
+  ]
+}

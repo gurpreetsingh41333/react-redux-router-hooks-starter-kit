@@ -12,7 +12,7 @@ import './App.css';
 import NoMatch from './components/NoMatch/NoMatch';
 
 const Home = loadable(props => import(/* webpackChunkName: "Home" */
- /* webpackPrefetch: true */ './components/Home/Home'), {
+  './components/Home/Home'), {
   fallback: <div>Loading...</div>
 })
 
@@ -54,7 +54,7 @@ const App = () => {
           <PrivateRoute exact path="/home">
             <Home />
           </PrivateRoute>
-          <Route path="/">
+          <Route exact path="/">
             <Login />
           </Route>
           <Route path="*">
