@@ -6,8 +6,8 @@ A starter kit with react 16 hooks, redux, react-router, webpack4 and prettier.
 * react-router configuration with private routing
 * Redux setup with thunk middleware
 * Code splitting using @loadable/component
-* Enviornment specific API Call using Axios
-* Enviornment configuration in package scripts
+* Environment specific API Call using Axios
+* Environment configuration in package scripts
 * separate containers and components
 * Toastr setup with standard options in utils
 
