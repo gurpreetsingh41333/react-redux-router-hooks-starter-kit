@@ -6,7 +6,7 @@ const options = {
   debug: false,
   newestOnTop: false,
   progressBar: false,
-  positionClass: "toast-top-center",
+  positionClass: "toast-top-right",
   preventDuplicates: true,
   onclick: null,
   showDuration: "300",
@@ -43,3 +43,13 @@ export function handleSuccessToastr(message) {
 export function clearToastr() {
   toastr.clear();
 }
+
+// sort function
+export const compareSort = key => {
+  return function (a, b) {
+    if (a[key] < b[key])
+      return -1;
+    if (a[key] > b[key]) return 1;
+    return 0;
+  };
+};

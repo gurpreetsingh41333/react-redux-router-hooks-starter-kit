@@ -1,0 +1,29 @@
+[
+  {
+    "menuid": 1,
+    "menuDisplayName": "Dashboard",
+    "menuTargetURL": "/dashboard",
+    "imageSource": "fa-tachometer-alt",
+    "subMenus": []
+  },
+  {
+    "menuid": 2,
+    "menuDisplayName": "Administration",
+    "menuTargetURL": "/administration",
+    "imageSource": "fa-user-cog",
+    "subMenus": [
+      {
+        "menuid": 3,
+        "menuDisplayName": "Manage Users",
+        "menuTargetURL": "/users",
+        "imageSource": null
+      },
+      {
+        "menuid": 4,
+        "menuDisplayName": "Manage Logs",
+        "menuTargetURL": "/managelogs",
+        "imageSource": null
+      }
+    ]
+  }
+]

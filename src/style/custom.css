@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+html{font-family: 'Roboto', sans-serif;font-size:16px;}
+body{font-size: 1rem;}
+body,table,div,p,span,tr,th,td{font-family: 'Roboto', sans-serif;}
+table, tr, th, td {
+    font-size: 13px;
+}
+
+
+.maroon-bg {
+    background-color: #d0103a !important;
+}
+
+.sb-topnav .navbar-brand {
+    width: 225px;
+    background: #fff;
+    padding: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.sb-topnav.navbar-dark #sidebarToggle {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.userProfileContainer{margin-bottom: 0; padding-bottom: 0px;}
+.userProfileContainer .media-object{max-width: 50px;max-height: 50px;    border: 3px solid #fff;}
+.userProfileContainer .media-body{padding-top:8px;font-size:0.75rem;    vertical-align: middle;margin-left: 15px;}
+.userProfileContainer .media-heading{color:#fff; font-size: 1rem;}
+.userProfileContainer .designation{color:#fff; font-weight: 300;}
+
+.sb-sidenav .sb-sidenav-menu .nav .sb-sidenav-menu-heading {
+    padding: .75rem 1rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    background: #2b2e30;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+    color: #fff;
+    border-left: 4px solid #d0103a;
+	background: #38393a;
+}
+.sb-sidenav-dark .sb-sidenav-menu .collapse.show .nav-link.active {
+    border-left: 4px solid transparent;
+	background: transparent;
+}
+
+
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    border-left: 4px solid transparent;
+	color: #d5d5d5;
+}
+
+.sb-nav-fixed #layoutSidenav #layoutSidenav_content {
+
+    background: #f5f5f5;
+}
+
+.bg-white-custom{ background: #fff; border: 1px solid #ccc; padding:0 12px;}
+
+
+.dashboardRow1 {
+    background: #dedede;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+.dashboardRow1 .white-box {
+    background: #fff;
+    padding: 25px;
+    color: #4a4a4a;
+    border: 1px solid #ddd;
+	    min-height: 175px;
+	margin-bottom: 25px;
+}
+
+.white-box .box-title {
+    margin: 0 0 10px;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.white-box .list-inline {
+    margin-bottom: 0;
+}
+
+.white-box .list-inline li {
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bold;
+	width: 45%;
+}
+
+
+.iconBox {
+    max-width: 50px;
+    width: 100%;
+}
+
+
+.white-box .box-description {
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
+
+
+
+.dashboardRow2 {
+    background: #fff;
+    padding: 25px;
+    padding-bottom: 0px;
+}
+
+
+.white-box {
+    background: #efefef;
+    padding: 25px;
+    margin-bottom: 30px;
+    color: #4a4a4a;
+    border: 1px solid #ddd;
+}
+
+.dashboardRow2 .white-box{padding-bottom: 40px;}
+.marginAuto{margin:0px auto;}
+.graybg{background:#e9e9e9;}
+.text-centerImp{text-align: center !important}
+.text-0dot8rem{font-size: 0.8rem;}
+.createTemplateDescription{font-size: 0.8rem !important;margin-top:20px;}
+.GLInterface_align{ padding-top: 53px;}
+
+.row2iconContainer {
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.row2DescriptionTxt {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.dashboardRow2 .white-box:hover, .dashboardRow2 .white-box:focus{-webkit-box-shadow: 0px 1px 5px 3px rgba(255,0,0,0.3);-moz-box-shadow: 0px 1px 5px 3px rgba(255,0,0,0.3);box-shadow: 0px 1px 5px 3px rgba(255,0,0,0.3);cursor: pointer}
+
+.pageSubHead {
+    color: #d0103a;
+    font-weight: 500;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    margin: 0px;
+}
+.btn-red {
+    background-color: #d0103a;
+    color: white;
+}
+.btn {
+    border-radius: 2px; font-size: 14px;
+}
+
+
+.btn-grey {
+    background-color: #eee;
+	border: 1px solid #ddd;
+}
+.dvFormContainer {
+    background: #f5f5f5;
+    padding: 10px 12px;
+	border: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+.card{ border-radius: 0;}
+
+.margin-tp-minus-1{ margin-top: -1px;}
+
+.form-control{ border-radius: 0;font-size: 0.8rem;}
+.fontSize08rem{ font-size: 0.8rem;}
+
+.dvFormContainer .control-label, .popupFormContainer .control-label {
+    margin-top: 6px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.hideMe {
+    display: none;
+}
+.customModal .modal-title {
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    position: absolute;
+    right: 15px;
+}
+
+.modal-content{ border-radius: 0;}
+.btn-white {
+    background: white;
+	border: 1px solid #ddd;
+}
+
+.paddingLR30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*=============custom checkbox css=============*/
+
+.containerCheckboxouter{ 
+    margin-bottom: -10px!important;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.containerCheckbox:first-child{ width: auto!important;}
+
+.containerCheckbox {
+  position: relative;
+  padding-left: 33px;
+  margin-bottom: 0px!important;
+  cursor: pointer;
+   line-height: 30px;
+-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    padding-right: 5px!important;
+	font-weight: 500;
+}
+
+/* Hide the browser's default checkbox */
+.containerCheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+/* On mouse-over, add a grey background color */
+.containerCheckbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containerCheckbox input:checked ~ .checkmark {
+  background-color: #000;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containerCheckbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containerCheckbox .checkmark:after {
+  left: 9px;
+  top: 7px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.pText{ margin-top: 10px;margin-bottom: 15px; font-weight: 500;}
+
+.pinkmsg {
+    background: #d6d6d6;
+    margin-top: -12px;
+
+}
+
+
+.sb-sidenav .sb-sidenav-menu .nav .nav-link {
+    display: flex;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    position: relative;
+    font-size: .8rem;
+}
+
+
+.nav-link {
+    display: block;
+    padding: 0.5rem .5rem;
+}
+
+.whiteBg {
+    background-color: #fff!important;
+}
+
+.iconCal {
+    background: url(../images/icon_cal.png) right center no-repeat;
+}
+.datepicker td, .datepicker th {
+
+    font-size: .9rem;
+}
+
+.mytxt {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+
+.whiteBg1 {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}.grayBg1 {
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+.custom_table{ position: relative;  min-height: 200px; overflow-x: scroll; overflow-y: visible;}
+
+.errorOuterContainer{ 
+    display: table;
+    text-align: center; 
+    height: 100vh;
+    width: 100%;;
+}
+.errorInnerContainer{
+    display: table-cell; vertical-align: middle;    
+}
+
+ ul.pagination_UI{ margin-bottom: 0;}
+ ul.pagination_UI li.page-item a.page-link{ border-radius: 0!important; color: #333;}
+ ul.pagination_UI li.page-item.active a.page-link{background-color: #212529;
+    border-color: #212529; color: #fff; }
+.gotoPage{ width: 80px;}
+
+ul.pagination_UI .page-link {
+    padding: 0.22rem 0.5rem;
+    border: 1px solid #ced4da;
+}
+
+
+
+
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .7rem 1.25rem;
+}
+
+
+.notificationSwitchContainer .card-header{ line-height: 34px;}
+
+
+.bootstrap-4-Switch1{ top:20px;}
+.bootstrap-4-Switch {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+}
+
+
+.bootstrap-4-Switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.bootstrap-4-Switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.bootstrap-4-Switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.bootstrap-4-Switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.bootstrap-4-Switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.bootstrap-4-Switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.label-default {
+    background-color: #777;
+}
+.label-warning {
+    background-color: #f0ad4e;
+}
+
+.label-info {
+    background-color: #5bc0de;
+}
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label-primary {
+    background-color: #428bca;
+}
+
+.label-danger {
+    background-color: #d0103a;
+}
+
+
+.notificationSwitchContainer .card-header .bootstrap-4-Switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: .8;
+    box-shadow: none;
+}
+
+.notificationSwitchContainer .card-header .bootstrap-4-Switch > label::before {
+    background: rgb(255, 255, 255);
+    box-shadow: none;
+}
+
+
+
+.notificationSwitchContainer .card-header strong{ font-size: 1rem;font-weight: 400;}
+.switchHeadLink{ float: right; color: #fff; text-decoration: underline; opacity: 0.7;}
+.switchHeadLink:hover, .switchHeadLink:focus{opacity: 1; color: #fff; }
+
+
+
+
+
+/*=========responsive tables ================*/
+
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.table-vertical { 
+  width: 100%;   
+
+  height:auto;
+  border-collapse: collapse; border: 1px solid #ccc;
+}
+/* Zebra striping */
+.table-vertical>tbody>tr:nth-of-type(even) {  background: #f5f5f5;}
+.table-vertical>thead>tr>th { 
+  background: #ececec;
+  color: #202020; 
+  font-weight: bold; 
+}
+.table-vertical>tbody>tr>td, .table-vertical>thead>tr>th { 
+  padding: 6px; 
+  border-top: 1px solid #ccc; 
+  text-align: left; 
+  vertical-align: middle;
+  border-right: 1px solid #ccc;
+}
+
+
+.table-vertical.modifiedTable>tbody>tr>td, .table-vertical.modifiedTable>thead>tr>th {
+	  padding: 0;
+	  vertical-align:top;
+	
+	}
+
+.th-Sort{position: absolute; right: 5px;color: #333; top: 10px;}
+.th-Sort:hover, .th-Sort:focus{ color: #333; text-decoration: none;}
+.table-Th-Input{ width: 100%; border: 1px solid #ccc; height: 25px; margin-top: 5px; border-radius: 0; margin: 0 auto;}
+.table-vertical>thead>tr>th{  position: relative;}
+.table-vertical>thead>tr>th>span{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; width: 135px;}
+/*----------table css end here-------------*/
+
+
+
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 320px) and (max-device-width: 767px)  {
+
+	/* Force table to not be like tables anymore */
+	.table-vertical table, .table-vertical thead, .table-vertical tbody, .table-vertical th, .table-vertical td, .table-vertical tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.table-vertical thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.table-vertical>thead>tr,  .table-vertical>tbody>tr{ border: 1px solid #ccc; }
+	.table-vertical>tbody>tr:nth-of-type(even) {  background: transparent;}
+
+	 
+	.table-vertical>thead>tr>td,  .table-vertical>tbody>tr>td{ 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #ccc; 
+		position: relative;
+		/*padding-left: 50%; */
+	}
+	
+.table-vertical>tbody>tr>td:before {
+    position: realtive;
+    width: 100%;
+    padding-right: 0px;
+    white-space: normal;
+    font-weight: bold;
+    background: #d2d2d2;
+    display: block;
+    padding: 6px;
+    margin-bottom: 5px;
+}
+	
+	/*inheritta
+	*/
+	.table-vertical>tbody>tr>td:before { content: attr(data-th); }
+	
+	.table_txt{ display:block;}
+	
+	
+	.table-vertical-inner>thead>tr,  .table-vertical-inner>tbody>tr{ border: 0px solid #ccc;clear: both; }
+	
+	 
+	.table-vertical-inner>thead>tr>td,  .table-vertical-inner>tbody>tr>td{ 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #ccc; 
+		position: relative;
+		/*padding-left: 50%; */
+	}
+	
+	.table-vertical-inner>tbody>tr>td:before { 
+		/* Now like a table header */
+		position: realtive;
+		/* Top/left values mimic padding */
+		width: 100%; 
+		padding-right: 0px; 
+		white-space: normal;
+		font-weight: bold;
+	}
+	
+	/*inheritta
+	*/
+	.table-vertical-inner>tbody>tr>td:before { content: attr(data-th); }
+	
+	
+	
+	
+}
+
+
+.dropdown-item {
+    padding: 0.25rem .9rem;
+    font-size: .8em;
+}
+.dropdown-menu{border-radius: 0;}
+
+.notificationIconCount {
+position: absolute;
+    background: #2b2e30;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    font-size: .7rem;
+    text-align: center;
+    right: 22px;
+    top: 4px;
+}
+
+
+.top-nav a.nav-link.dropdown-toggle i{font-size: 1.5rem;}
+
+
+
+.myNotification{ padding: 10px;}
+	
+	
+.myAnchor{  float: left; margin: 0px 5px 0 5px;}
+
+	.tabTopRight {margin-top: 0;}	
+.customBG {
+    
+    position: relative;
+  display: block;
+	border-top:1px solid #ddd;
+}	
+
+.customBG:nth-child(even){
+
+    background: #f5f5f5; border-left: 4px solid #d0103a;
+}
+
+
+	
+.customBGInner{ padding: 7px 25px 0px 10px ;}
+	
+	.parentClose {
+    position: absolute;
+    right: 8px;
+    z-index: 1;
+    font-weight: normal;
+    color: #000;
+    font-family: cursive;
+    font-size: .7rem;
+}
+	
+	
+	.parentClose:hover, .parentClose:focus{ text-decoration: none;} 
+	.myAnchor img{ width: 25px; margin-top: 3px; }
+
+.dropdown-menu.keep-open{ width: 320px;      padding: 0;
+-webkit-box-shadow: 0px 10px 39px -2px rgba(115,102,115,1);
+-moz-box-shadow: 0px 10px 39px -2px rgba(115,102,115,1);
+box-shadow: 0px 10px 39px -2px rgba(115,102,115,1);}
+
+.scrollDiv{ max-height: 300px; overflow: auto;}
+.dropdown-menu.keep-open h4{    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 10px 10px 10px 10px;
+    background: #2b2e30;
+    margin-bottom: 0;
+    color: #fff;}
+
+.customBG label {
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.smallBlue {
+    background: #d0103a;
+    color: #fff;
+    font-size: .8rem;
+    padding: 1px 5px;margin-left: 10px;
+}
+
+.assignName{font-size: .8rem; color: #d0103a;font-weight: 500;}
+.assignName1{font-size: .8rem; color: #d0103a;font-weight: 400;}
+.assignName:hover { text-decoration:none;}
+
+.bedge-number{ background:#fff; color:#333; border-radius:50%;padding:10px;padding: 1px 7px;}
+.more{ display: block; text-align: right; font-size: .8rem; background:#ccc; padding: 5px 20px;}
+

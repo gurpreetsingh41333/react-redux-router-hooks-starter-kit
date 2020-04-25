@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.12.0",
+    "@material-ui/core": "^4.9.10",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -14,22 +15,29 @@
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "react-table": "^7.0.0",
     "reactstrap": "^8.4.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^5.0.1",
     "toastr": "^2.1.4"
   },
   "scripts": {
-    "start:dev": "set REACT_APP_ENV=dev&&react-scripts start",
-    "build:dev": "set REACT_APP_ENV=dev&&react-scripts build",
-    "build": "set REACT_APP_ENV=prod&&react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "analyse": "npm run build --env.analyse",
+    "build:prod": "webpack --env.prod --mode production",
+    "build:stg": "webpack --env.stg --mode stg",
+    "build:qa": "webpack --env.qa --mode qa",
+    "build:dev": "webpack --env.dev --mode development",
+    "start-js": "webpack-dev-server --env.dev --mode development --open --hot",
+    "start": "npm-run-all start-js"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "plugins": [
+      "react-app",
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn"
+    }
   },
   "browserslist": {
     "production": [
@@ -41,6 +49,43 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.2",
+    "dotenv-webpack": "^1.7.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "regenerator-runtime": "^0.13.5",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^3.7.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
     ]
   }
 }
