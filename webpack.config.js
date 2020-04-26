@@ -27,7 +27,7 @@ module.exports = (env = {}, argv = {}) => {
     },
     devServer: {
       inline: true,
-      port: 3002,
+      port: 3000,
       historyApiFallback: true, // will redirect 404s to /index.html
     },
     devtool: "source-map", // allow easy debugging in source tree in console

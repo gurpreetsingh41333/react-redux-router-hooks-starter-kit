@@ -41,3 +41,5 @@ Run server on port 3000 with HMR enabled or you can change port in webpack.confi
 ```npm run build:{variable}``` or ```yarn build:{variable}``` ```dev||qa||stg||prod```
 
 Building app in the "build" directory. Contains the index.html with the minified assets, it's ready for production!.
+
+                                                    **Happy Coding**
