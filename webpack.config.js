@@ -86,11 +86,11 @@ module.exports = (env = {}, argv = {}) => {
     plugins: [
       // Any option given to Webpack client can be captured on the "argv"
       // generate an HTML5 file for you that includes all your webpack bundles in the body using script tags.
-      argv.mode === "development" ? new HtmlWebpackPlugin({
+      new HtmlWebpackPlugin({
         template: path.join(__dirname, 'src', 'index.html'),
         manifest: "./src/manifest.json",
         favicon: "./src/images/favicon.ico"
-      }) : null,
+      }),
       argv.mode === "production"
         ? new MiniCssExtractPlugin({
           filename: "[name].css",

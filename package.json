@@ -23,8 +23,8 @@
   "scripts": {
     "analyse": "npm run build --env.analyse",
     "build:prod": "webpack --env.prod --mode production",
-    "build:stg": "webpack --env.stg --mode stg",
-    "build:qa": "webpack --env.qa --mode qa",
+    "build:stg": "webpack --env.stg --mode production",
+    "build:qa": "webpack --env.qa --mode production",
     "build:dev": "webpack --env.dev --mode development",
     "start-js": "webpack-dev-server --env.dev --mode development --open --hot",
     "start": "npm-run-all start-js"
