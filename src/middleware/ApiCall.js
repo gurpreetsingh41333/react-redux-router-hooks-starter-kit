@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 import { routes } from '../config/constants';
-import { history } from '../containers/Store';
+import { history } from './Store';
 
 function setHeaderOptions(config) {
   let headers = {
